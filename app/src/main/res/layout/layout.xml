@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lp6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:foregroundGravity="center"
+    android:gravity="center"
+    android:paddingLeft="10pt"
+    android:paddingTop="2pt"
+    android:paddingRight="10pt"
+    android:paddingBottom="2pt"
+    app:layout_anchorGravity="center">
+
+    <TextView
+        android:id="@+id/nameof1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10pt"
+        android:text="Retro News"
+        android:textColor="@color/Wheat"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/weat"
+        android:layout_width="20pt"
+        android:layout_height="20pt"
+        android:layout_marginRight="5pt"
+        android:layout_weight="1"
+        android:focusable="auto"
+        app:srcCompat="@drawable/windy_weather_64px" />
+
+    <ImageView
+        android:id="@+id/news"
+        android:layout_width="20pt"
+        android:layout_height="20pt"
+        android:layout_marginRight="5pt"
+        android:layout_weight="1"
+        android:focusable="auto"
+        app:srcCompat="@drawable/google_news_64px" />
+
+    <ImageView
+        android:id="@+id/prof"
+        android:layout_width="20pt"
+        android:layout_height="20pt"
+        android:layout_weight="1"
+        android:focusable="auto"
+        app:srcCompat="@drawable/profile_64px" />
+</LinearLayout>

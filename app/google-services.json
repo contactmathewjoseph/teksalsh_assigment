@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "405468004489",
+    "firebase_url": "https://retronews-a5ffe.firebaseio.com",
+    "project_id": "retronews-a5ffe",
+    "storage_bucket": "retronews-a5ffe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405468004489:android:521b5a112ab920f7ef0658",
+        "android_client_info": {
+          "package_name": "com.ytosko.twc.retronews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405468004489-luepc1omkjolc3ofb06n3utppvghn7ci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ytosko.twc.retronews",
+            "certificate_hash": "d6bbb48b078bc553c97bbcdca37917a76aff075d"
+          }
+        },
+        {
+          "client_id": "405468004489-i517ps1j1ban2ecen7n1889oevsjf9re.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABdckgzQyRqBHRmQYZmUHl9EYVtBDZhEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405468004489-i517ps1j1ban2ecen7n1889oevsjf9re.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

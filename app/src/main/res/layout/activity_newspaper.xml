@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".newspaper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/gr_br"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5pt"
+            android:layout_marginBottom="2pt"
+            android:fontFamily="@font/aclonica"
+            android:text="Available Newspapers"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginStart="25pt"
+            android:layout_marginEnd="25pt"
+            android:layout_marginBottom="3pt"
+            android:background="@drawable/butoon_follow_background" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10pt"
+                android:layout_marginTop="5pt"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/star"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/mycheck"
+                    android:fontFamily="@font/aldrich"
+                    android:padding="5pt"
+                    android:text="The Daily star"
+                    android:textColor="#F7F5F5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/alo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/mycheck"
+                    android:fontFamily="@font/aldrich"
+                    android:padding="5pt"
+                    android:text="Prothom Alo"
+                    android:textColor="#F7F5F5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/prati"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/mycheck"
+                    android:fontFamily="@font/aldrich"
+                    android:padding="5pt"
+                    android:text="Bangladesh Pratidin"
+                    android:textColor="#F7F5F5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/jugantor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/mycheck"
+                    android:fontFamily="@font/aldrich"
+                    android:padding="5pt"
+                    android:text="Jugantor"
+                    android:textColor="#F7F5F5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/kontho"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/mycheck"
+                    android:fontFamily="@font/aldrich"
+                    android:padding="5pt"
+                    android:text="Kaler Kantho"
+                    android:textColor="#F7F5F5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/ittefuq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/mycheck"
+                    android:fontFamily="@font/aldrich"
+                    android:padding="5pt"
+                    android:text="Ittefaq"
+                    android:textColor="#F7F5F5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/samakal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/mycheck"
+                    android:fontFamily="@font/aldrich"
+                    android:padding="5pt"
+                    android:text="Samakal"
+                    android:textColor="#F7F5F5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/digonto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/mycheck"
+                    android:fontFamily="@font/aldrich"
+                    android:padding="5pt"
+                    android:text="Noya Diganta"
+                    android:textColor="#F7F5F5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/btoday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/mycheck"
+                    android:fontFamily="@font/aldrich"
+                    android:padding="5pt"
+                    android:text="BD New 24"
+                    android:textColor="#F7F5F5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/sun"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/mycheck"
+                    android:fontFamily="@font/aldrich"
+                    android:padding="5pt"
+                    android:text="The Daily Sun"
+                    android:textColor="#F7F5F5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+        <include
+            android:id="@+id/set"
+            layout="@layout/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10pt"
+            android:layout_marginTop="5pt" />
+
+    </LinearLayout>
+
+</LinearLayout>
